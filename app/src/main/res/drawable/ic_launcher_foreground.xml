@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+  <group android:scaleX="0.53720933"
+      android:scaleY="0.53720933"
+      android:translateX="11.1069765"
+      android:translateY="11.5844965">
+
+      <!-- ============================================================
+           BOTTOM DATABASE LAYER — DARKEST
+           ============================================================ -->
+
+      <path android:pathData="
+              M9,28
+              C9,24.686 15.716,22 24,22
+              C32.284,22 39,24.686 39,28
+              V34
+              C39,37.314 32.284,40 24,40
+              C15.716,40 9,37.314 9,34
+              Z">
+
+          <aapt:attr name="android:fillColor">
+              <gradient
+                  android:centerColor="#103F89"
+                  android:endColor="#082B61"
+                  android:endX="40"
+                  android:endY="40"
+                  android:startColor="#1B55A8"
+                  android:startX="8"
+                  android:startY="23"
+                  android:type="linear" />
+          </aapt:attr>
+      </path>
+
+
+      <!-- ============================================================
+           MIDDLE DATABASE LAYER — MEDIUM
+           ============================================================ -->
+
+      <path android:pathData="
+              M9,18
+              C9,14.686 15.716,12 24,12
+              C32.284,12 39,14.686 39,18
+              V26
+              C39,29.314 32.284,32 24,32
+              C15.716,32 9,29.314 9,26
+              Z">
+
+          <aapt:attr name="android:fillColor">
+              <gradient
+                  android:centerColor="#1855AA"
+                  android:endColor="#0D397D"
+                  android:endX="40"
+                  android:endY="32"
+                  android:startColor="#286FCB"
+                  android:startX="8"
+                  android:startY="13"
+                  android:type="linear" />
+          </aapt:attr>
+      </path>
+
+
+      <!-- ============================================================
+           TOP DATABASE LAYER — LIGHTEST
+           ============================================================ -->
+
+      <path android:pathData="
+              M9,10
+              C9,6.686 15.716,4 24,4
+              C32.284,4 39,6.686 39,10
+              V18
+              C39,21.314 32.284,24 24,24
+              C15.716,24 9,21.314 9,18
+              Z">
+
+          <aapt:attr name="android:fillColor">
+              <gradient
+                  android:centerColor="#2675D2"
+                  android:endColor="#1550A0"
+                  android:endX="40"
+                  android:endY="24"
+                  android:startColor="#4AA8F5"
+                  android:startX="8"
+                  android:startY="5"
+                  android:type="linear" />
+          </aapt:attr>
+      </path>
+
+
+      <!-- ============================================================
+           TOP DATABASE SURFACE
+           ============================================================ -->
+
+      <path android:pathData="
+              M9,10
+              C9,6.686 15.716,4 24,4
+              C32.284,4 39,6.686 39,10
+              C39,13.314 32.284,16 24,16
+              C15.716,16 9,13.314 9,10
+              Z">
+
+          <aapt:attr name="android:fillColor">
+              <gradient
+                  android:centerColor="#4095E8"
+                  android:endColor="#2170C9"
+                  android:endX="38"
+                  android:endY="16"
+                  android:startColor="#72C4FF"
+                  android:startX="10"
+                  android:startY="5"
+                  android:type="linear" />
+          </aapt:attr>
+      </path>
+
+
+      <!-- ============================================================
+           TOP SURFACE HIGHLIGHT
+           ============================================================ -->
+
+      <path
+          android:fillAlpha="0.14"
+          android:fillColor="#D5F4FF"
+          android:pathData="
+              M11,9.5
+              C13.4,7.2 18.2,5.7 24,5.7
+              C29.8,5.7 34.6,7.2 37,9.5
+              C34.4,7.7 29.6,6.8 24,6.8
+              C18.4,6.8 13.6,7.7 11,9.5
+              Z" />
+
+
+      <!-- ============================================================
+           LIGHTNING BOLT — SHADOW
+           ============================================================ -->
+
+      <path
+          android:fillAlpha="0.80"
+          android:fillColor="#020B1C"
+          android:pathData="
+              M29.8,18.6
+              L18.0,31.8
+              L23.5,31.8
+              L21.0,42.2
+              L34.5,26.4
+              L29.2,26.4
+              Z" />
+
+
+      <!-- ============================================================
+           LIGHTNING BOLT — MAIN
+           ============================================================ -->
+
+      <path android:pathData="
+              M29.2,18.0
+              L17.0,31.5
+              L23.1,31.5
+              L20.6,41.9
+              L34.4,25.6
+              L28.7,25.6
+              Z">
+
+          <aapt:attr name="android:fillColor">
+              <gradient
+                  android:centerColor="#18D7FF"
+                  android:endColor="#216BFF"
+                  android:endX="32"
+                  android:endY="40"
+                  android:startColor="#7AF7FF"
+                  android:startX="18"
+                  android:startY="19"
+                  android:type="linear" />
+          </aapt:attr>
+      </path>
+
+      <!-- LIGHTNING BOLT — HIGHLIGHT-->
+      <path
+          android:fillAlpha="0.48"
+          android:fillColor="#E0FCFF"
+          android:pathData="
+              M28.8,19.3
+              L19.0,30.3
+              L23.9,30.3
+              L22.7,35.2
+              L32.0,26.8
+              L27.0,26.8
+              Z" />
+
+  </group>
+</vector>
